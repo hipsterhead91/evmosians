@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <title>Evmosians NFT</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <!-- CSS -->
+  <link href="jquery.toast.min.css" rel="stylesheet" type="text/css" />
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="jquery.toast.min.js" type="text/javascript"></script>
+  <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js" type="text/javascript"></script>
+  <script src="app.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+  <!-- ШАПКА -->
+  <header class="header">
+    <div class="header__container">
+      <h1 class="header__heading">Evmosians NFT</h1>
+      <button class="header__network-button" id="network-button">connect Evmos wallet</button>
+    </div>
+  </header>
+
+  <!-- МИНТ НФТ -->
+  <div class="minting">
+    <p class="minting__information">Evmosians NFT is the first 3d motion NFT collection in <a class="minting__link" target="_blank" href="https://evmos.org/">Evmos</a> (currently in Evmos testnet). You can mint any of 4 unique animated NFTs or all of them below.<br><br>1. Connect Metamask extension (check out <a class="minting__link" target="_blank" href="https://evmos.dev/guides/keys-wallets/metamask.html#automatic-import">official guide</a>);<br>2. Use <a class="minting__link" target="_blank" href="https://faucet.evmos.org/">faucet.evmos.org</a> to get test photons for comission;<br>3. Press mint button.<br><br>NFT token will be added to your Metamask account. Save your minting transaction hashes — you will need it when we launch our NFT collection in Evmos mainnet.
+    <div class="minting__nfts">
+      <img class="minting__image" id="main-image" src="./images/evmosian-1.gif" alt="Evmosian image">
+      <div class="minting__buttons">
+        <button class="minting__button" id="minting-button-1">mint <span>Evmosian</span> NFT</button>
+        <button class="minting__button" id="minting-button-2">mint <span>Validator</span> NFT</button>
+        <button class="minting__button" id="minting-button-3">mint <span>Builder</span> NFT</button>
+        <button class="minting__button" id="minting-button-4">mint <span>Educator</span> NFT</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ПОДВАЛ -->
+  <footer class="footer">
+    <nav class="footer__links">
+      <a class="footer__link" target="_blank" href="https://twitter.com/temova2">temova</a>
+      <a class="footer__link" target="_blank" href="https://twitter.com/alekh_w">asverty</a>
+      <a class="footer__link" target="_blank" href="https://twitter.com/dmvrt5">dmvrt</a>
+      <a class="footer__link" target="_blank" href="https://twitter.com/turquoisebomber">hipsterhead_91</a>
+    </nav>
+  </footer>
+
+  <!-- ПОПАП -->
+  <div class="popup popup_hidden" id="popup">
+    <div class="popup__close" id="popup-close"></div>
+    <div class="popup__container" id="popup-container"></div>
+  </div>
+
+</body>
+
+</html>
