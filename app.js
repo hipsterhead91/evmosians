@@ -3,10 +3,10 @@ const chainId = 9000;
 const price = 0;
 let address;
 
-const contractAddress1 = "0x0f9963FDBD67C513c2f660965a652AC691087C30"; // Evmosian
-const contractAddress2 = "0xebe59e92c17f96c05fac65f9e03b7717f73370fd"; // Validator
-const contractAddress3 = "0xde6b8e55a50d7ecff79daaf23404497c00e23f9f"; // Builder
-const contractAddress4 = "0xe57a88ec1b54378499a104c3942e35d3705b70b3"; // Educator
+const contractAddress1 = "0x7ed7d20698931c98ecc8f4fe95ee7cebe35b6548"; // Evmosian
+const contractAddress2 = "0xF12Aa72B237C1B936f5917BF0f90c1D8b7D29a1D"; // Validator
+const contractAddress3 = "0x53a6ab26100898915e500661c603082c065d1e77"; // Builder
+const contractAddress4 = "0xaD4c0fF6A3D20a9d420D8DBeF1b5F8E9f907a663"; // Educator
 
 const etherscanUrl = "https://evm.evmos.org/tx";
 let provider = null;

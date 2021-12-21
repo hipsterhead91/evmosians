@@ -30,7 +30,9 @@ body {
   color: white;
 }
 
-
+.maintenance {
+  margin: auto;
+}
 
 /* ШАПКА */
 
